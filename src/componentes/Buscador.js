@@ -18,9 +18,9 @@ class Buscador extends Component {
     render() {
         return (
             <form onSubmit={this.obtenerDatos}>
-                <div className="row" style={{display: "flex", justifyContent:"center"}}>
+                <div className="row gap-1" style={{display: "flex", alignItems:"center", justifyContent:"center"}}>
                     <div className="form-group col-md-6">
-                        <input ref={this.busquedaRef} type="text" className="form-control form-control-lg" placeholder="Busca tu imagen. Ejemplo: perro..." />
+                        <input ref={this.busquedaRef} type="text" className="form-control form-control-lg" placeholder="Busca tu imagen. Ejemplo: Shitzu..." />
                     </div>
                     <div className="form-group row col-md-2">
                         <input type="submit" className="btn btn-lg btn-block btn-danger" value="Buscar..." />
