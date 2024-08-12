@@ -1,31 +1,25 @@
-# Portfolio v3
+# Search Images Pixabai
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Portfolio v3 es la última versión de mi portafolio personal, desarrollado con React. Esta aplicación muestra mis proyectos, habilidades y experiencia profesional, proporcionando una visión integral de mi trabajo como desarrollador web.
+Search Images Pixabai es una aplicación web que permite a los usuarios buscar y explorar imágenes utilizando la API de Pixabay. La aplicación proporciona una interfaz intuitiva para encontrar imágenes basadas en palabras clave y visualizar resultados de búsqueda.
 
 ## Demo
 
-Puedes ver el portafolio en funcionamiento aquí: [Portfolio v3](https://tu-url-de-portafolio-aqui.com)
+Puedes ver la aplicación en funcionamiento aquí: [Search Images Pixabai](https://search-images-pixabai.vercel.app/)
 
 ## Características
 
-- **Sección de Proyectos**: Muestra una galería de mis proyectos destacados con descripciones y enlaces a los repositorios.
-- **Habilidades**: Detalla las tecnologías y herramientas en las que tengo experiencia.
-- **Experiencia Profesional**: Incluye mi historial laboral y roles anteriores.
-- **Contacto**: Formulario de contacto para recibir mensajes directamente desde el portafolio.
-- **Responsive**: Optimizado para dispositivos móviles y de escritorio.
+- **Búsqueda de imágenes**: Permite a los usuarios buscar imágenes por palabras clave utilizando la API de Pixabay.
+- **Visualización de resultados**: Muestra una galería de imágenes con vista previa y opciones para ver detalles.
+- **Filtrado y paginación**: Navega por los resultados de búsqueda con opciones de filtrado y paginación.
+- **Responsive**: Optimizado para una experiencia fluida en dispositivos móviles y de escritorio.
 
 ## Tecnologías utilizadas
 
 - **React**: Biblioteca de JavaScript para construir la interfaz de usuario.
-- **Node.js**: Desarrollo del lado del servidor para crear APIs y gestionar la lógica del backend.
-- **MySQL**: Diseño y administración de bases de datos relacionales.
-- **MongoDB**: Uso de bases de datos NoSQL para almacenamiento flexible de datos.
-- **Next.js**: Desarrollo de aplicaciones con renderizado del lado del servidor y generación de sitios estáticos.
-- **Vercel**: Despliegue de aplicaciones web para entrega continua y optimizada.
+- **Pixabay API**: Proporciona acceso a una extensa colección de imágenes.
 - **CSS Modules**: Estilos CSS locales para mantener el código modular y mantenible.
-- **APIs**: Integración y consumo de APIs externas, como la API de Pixabay para la búsqueda de imágenes.
 
 ## Instalación
 
@@ -33,17 +27,23 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/Jonavoe/portfolio-v3.git
+   git clone https://github.com/Jonavoe/searchImagesPixabai.git
    ```
+````
+
 2. Navega al directorio del proyecto:
    ```bash
-   cd portfolio-v3
+   cd searchImagesPixabai
    ```
 3. Instala las dependencias:
    ```bash
    npm install
    ```
-4. Inicia la aplicación:
+4. Crea un archivo `.env` en la raíz del proyecto y añade tu clave de API de Pixabay:
+   ```bash
+   REACT_APP_PIXABAY_API_KEY=tu_clave_de_api_aqui
+   ```
+5. Inicia la aplicación:
    ```bash
    npm start
    ```
@@ -56,7 +56,7 @@ Este proyecto está desplegado en [Vercel](https://vercel.com). Para desplegar t
 
 1. Haz un fork de este repositorio.
 2. Vincula tu repositorio con Vercel.
-3. Configura cualquier variable de entorno si es necesario (por ejemplo, para el formulario de contacto).
+3. Configura las variables de entorno si es necesario.
 4. Despliega tu aplicación con un solo clic.
 
 ## Contribuciones
@@ -76,4 +76,5 @@ Si tienes alguna pregunta o sugerencia, puedes contactarme en:
 
 ---
 
-¡Gracias por visitar mi portafolio!
+¡Gracias por visitar el proyecto!
+```
